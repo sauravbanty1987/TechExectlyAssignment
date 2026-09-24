@@ -15,7 +15,7 @@ Kotlin + XML + MVVM + Repository + Firebase Authentication + Firestore + FCM + M
 - Unit-test setup
 
 ## Firebase setup
-Create a Firebase project, add Android package `com.example.eventmanagement`, enable Email/Password Auth and Firestore, download `google-services.json`, and put it at `app/google-services.json`. The real file is intentionally not included.
+Create a Firebase project, add Android package `com.example.eventmanagement`, enable Email/Password Auth and Firestore, download `google-services.json`, and put it at `app/google-services.json`.
 
 ## Offline persistence
 Firestore Android SDK uses local caching/offline behavior. Configure explicit Firestore settings if your Firebase SDK/project requires custom persistence settings.
